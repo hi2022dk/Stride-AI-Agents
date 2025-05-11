@@ -16,7 +16,7 @@ COPY .env.example .env
 COPY n8n/ ./n8n
 
 # 6) Python 스크립트 복사 (예시 폴더명)
-COPY python-scripts/ ./python-scripts
+#COPY python-scripts/ ./python-scripts
 
 # 7) 포트 설정(기본 5678)
 EXPOSE 5678
